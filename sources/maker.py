@@ -42,9 +42,5 @@ class PizzaMaker:
         error = self.__try_to_get_ingredients(ingredients)
         if error is not None:
             return False, error
-<<<<<<< HEAD
-        return True, None
-=======
-        message = self.__apply_sauce(RECIPES[name])
+        return True, No
         return True, message
->>>>>>> 20c1aca (Pizza orderring and Tests)
